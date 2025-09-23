@@ -1,0 +1,21 @@
+.First {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Second {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Third {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+*{
+    text-align: center;
+}
