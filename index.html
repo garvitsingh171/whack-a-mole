@@ -8,13 +8,13 @@
 </head>
 <body>
     <main>
-        <h1 class="heading">Whack-a-Mole</h1>
-        <div id="scores">Score: <span id="score">0</span></div>
-        <div class="hole">
-            <button type="button" class="First" id="First"></button>
-            <button type="button" class="Second" id="Second"></button>
-            <button type="button" class="Third" id="Third"></button>
-        </div>
+        <h1>Whack-a-Mole</h1>
+        <div id="scoreboard">Score: <span id="score">0</span></div>
+        <section id="game-board">
+            <button id="mole-1" class="mole"></button>
+            <button id="mole-2" class="mole active"></button>
+            <button id="mole-3" class="mole"></button>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
